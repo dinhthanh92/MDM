@@ -1,5 +1,7 @@
 csrutil disable;
-
+diskutil mount /Volumes/Macintosh\ HD;
+ Mount -uv /Volumes/Macintosh\ HD;	
+ cd /Volumes/Macintosh\ HD/System/Library/LaunchAgents;
 mkdir /System/Library/LaunchAgentsDisabled; 
 mkdir /System/Library/LaunchDaemonsDisabled; 
 mv /System/Library/LaunchAgents/com.apple.ManagedClientAgent.agent.plist /System/Library/LaunchAgentsDisabled; 
